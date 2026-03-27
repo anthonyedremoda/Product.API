@@ -25,3 +25,13 @@
         ┌──────────────┐
         │ Notifications│
         └──────────────┘
+
+
+
+
+        Example Flow
+Product created → emits ProductCreatedEvent
+Orders service consumes it
+Order placed → emits OrderCreatedEvent
+Payments service processes payment
+Notification service sends email
